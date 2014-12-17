@@ -1,3 +1,6 @@
+//using char array to read words, and count the number of words which are separated by space
+//if the word is "done", the program also stops and return the number of words before "done"
+
 #include <iostream>
 #include <vector>
 #include <cstring>
@@ -26,7 +29,7 @@ int main(){
         cin.get(ch);
         }
         input[i]='\0';
-       // cout<<input<<endl;
+       
         if (ch=='\n'){
             done=true;
             count++;}
